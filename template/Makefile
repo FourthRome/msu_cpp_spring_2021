@@ -15,5 +15,5 @@ test.o: test.cpp program.hpp
 clean:
 	rm -rf *.o test
 
-test: allocator
+test: program
 	./test
