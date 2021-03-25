@@ -1,6 +1,6 @@
 CC=g++
 FLAGS=-std=c++17 -O2 -Wall -Werror -pedantic -Wextra -Wunused-variable -fsanitize=address
-EXEC_FILE=test_allocator
+EXEC_FILE=test_allocator.out
 
 all: $(EXEC_FILE)
 
